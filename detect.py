@@ -2,7 +2,8 @@ import sys
 import numpy as np
 import cv2
 
-# CROP DISEASE DETECTOR.
+# DISCLAIMER , most of the comments has been added by Ai as my code didnt have much comments and i told the Ai to explain the code , also remove dead commented code
+
 # farmers can photograph a leaf and this estimates how diseased it is. it finds
 # the leaf, then looks for brown/yellow spots (disease) vs healthy green, and
 # reports the % of the leaf that looks unhealthy + highlights the bad patches.
